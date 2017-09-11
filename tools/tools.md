@@ -1,0 +1,67 @@
+# 提升效率的前端工具、库和资源
+## Javascript 库
+- Particles.js — 一个用来在 web 中创建炫酷的浮动粒子的库
+- Three.js — 一个用来在 web 中创建 3d 物体和 3d 空间的库
+- Fullpage.js— 快速实现全屏滚动特性
+- Typed.js — 打字机效果
+- Waypoints.js — 滚动到某个元素位置时触发一个功能
+- Highlight.js — web 语法高亮
+- Chart.js — 使用 JavaScript 创建漂亮的图表
+- Instantclick — 能够明显加速网站加载时间，鼠标 hover 时预加载资源
+- Chartist — 另一个图表库
+- Motio — 一个基于动画和平移的雪碧图库
+- Animstion — CSS 实现动画过渡的 jQuery 插件
+- Barba.js — 流式页面过渡
+- TwentyTwenty — 一个对比图片的可视化 diff 工具
+- Vivus.js — 在 SVG 上绘制动画
+- Wow.js — 滚动时展现动画
+- Scrolline.js — 页面滚动时显示滚动进度
+- Velocity.js — 快速流畅的 JavaScript 动画
+- Animate on scroll — 漂亮的页面滚动元素动画
+- Handlebars.js — Javascript 模板
+- jInvertScroll — 视差滚动
+- One page scroll — 又一个页面滚动库
+- Parallax.js — 对智能设备方向变化做出响应的视差引擎
+- Typeahead.js — 搜索补全
+- Dragdealer.js — 炫酷拖拽
+- Bounce.js — 创建炫酷的 CSS3 动画
+- Pagepiling.js — 全屏滚动
+- Multiscroll.js — 两列垂直反向滚动
+- Favico.js — 动态 favicon
+- Midnight.js — 固定头部切换效果
+- Anime.js — 动画库
+- Keycode — 获取键盘按键的 JavaScript keycode
+- Sortable — 拖拽插件
+- Flexdatalist — 自动补全
+- Slideout.js — 移动应用侧滑导航
+- Jquerymy — 使用 jQuery 实现双向数据绑定
+- Cleave.js — 实时格式化输入内容
+- Page — 客户端单页应用路由
+- Selectize.js — 用来添加 tag 的 Hybrid 选择框
+- Nice select — 创建漂亮的选择框的 jQuery 库
+- Tether — 使用固定定位来创建相关元素
+- Shepherd.js — 为应用创建新手引导
+- Tooltip — tooltip 提示框
+- Select2 — Jquery 选择框插件
+- IziToast — 通知弹窗实现
+- IziModal — 模态框实现
+
+## CSS 库 / 设计相关
+- Animate.css — 动画库
+- Flat UI Colors — 扁平化设计配色
+- Material design lite— 基于 Google material design 的框架
+- Colorrrs — 随机颜色生成器
+- Section separators — CSS 实现区域分割
+- Topcoat — 框架
+- Create ken burns effect — 使用 CSS3 动画实现 Ken burns 特效
+- DynCSS — 给 CSS 添加 function，动态化 CSS
+- Magic animations — CSS3 实现动画特效
+- CSSpin — css spinners 合集
+- Feather icons — Icon 集合
+- Ion icons — Icon 集合
+- Font awesome — Icon 集合
+- Font generator — 组合多个字体创建混合字体
+- On/Off switch — 使用 CSS 创建 on/off 开关、radio 按钮
+- UI Kit — 框架
+- Bootstrap — 框架
+- Foundation — 框架

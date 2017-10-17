@@ -1,13 +1,13 @@
 # 深入浅出理解Redux
-- ### Redux是什么
-  > Redux 是 JavaScript 状态容器，提供可预测化的状态管理。
+### Redux是什么
+> Redux 是 JavaScript 状态容器，提供可预测化的状态管理。
+  
+它认为：Web应用是一个状态机，视图与状态一一对应。从架构层面来说，通常希望UI跟数据、逻辑分离，直观体现就是：**UI = render(state)**
 
-  它认为：Web应用是一个状态机，视图与状态一一对应。从架构层面来说，通常希望UI跟数据、逻辑分离，直观体现就是：**UI = render(state)**
-
-- ### 为什么要用Redux
+### 为什么要用Redux
   现在的Web应用涉及大量数据交互、异步操作等，无疑都在增加前端的复杂性，需要维护的state也越来越多。而Redux就是试图让每个state变化都是可预测，将应用中所有的action与state统一管理。
 
-- ### Redux的三原则
+### Redux的三原则
   - **单一数据源**
     整个应用state应该只存储在唯一一个的Store中。
   - **保持状态只是只读**
@@ -15,7 +15,7 @@
   - **数据改变通过纯函数完成**
     action改变state需要通过reducers。
 
-- ### Redux工作流程
+### Redux工作流程
   在讲Redux的工作流程之前，需了解几个Redux相关的核心概念：
   - Action：Action可以看成是应用发出的通知，表示State应该要发生变化了，Action的触发可能是用户对View层的操作也可能是服务器的响应。
   - Action Creator：如果有很多种Action，而每种Action都手写的话显得麻烦，所以用定义的Action Creator函数来生成Action。
@@ -27,11 +27,10 @@
   具体工作流程：
   用户通过View（或服务器响应）触发Action，Dispatch方法将Action Creator函数生成的Action派发到Store，Store自动调用Reducer，并向它传入当前State和Action，Reducer返回新的State，State一旦有变化，Store就会通过监听函数来更新View。
   借用一张图来描述这一过程：
-  ![image](http://i.niupic.com/images/2017/09/29/YSaDHU.png
-)
+  ![image](http://i.niupic.com/images/2017/09/29/YSaDHU.png)
   **严格的单向数据流是 Redux 架构的设计核心。**
 
-- ### 几个Redux核心概念实例
+### 几个Redux核心概念实例
   以从服务器响应文章内容为例
   Action
   ```JavaScript
@@ -90,10 +89,9 @@
  }
 
   ```
-- ### 深入到Redux的源码
+### 深入到Redux的源码
   Redux主要源码整体结构：
-  ![image](http://i.niupic.com/images/2017/09/30/BTZ7ie.png
-)
+  ![image](http://i.niupic.com/images/2017/09/30/BTZ7ie.png)
 
   - 入口文件 index.js
 ```JavaScript
@@ -161,7 +159,7 @@ export {
     ```
     compose这个方法，传入的一系列函数，执行的最终结果是把各个函数串联起来。
 ****
-总结：
+### 总结：
 - Redux 是 JavaScript 状态容器，提供可预测化的状态管理。
 - 严格的单向数据流是 Redux 架构的设计核心。
 - UI = render(state)

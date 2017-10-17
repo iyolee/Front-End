@@ -1,11 +1,22 @@
 # 前端资源收集及学习总结
-## 资源收集
-- [提升效率的前端工具、库和资源](https://github.com/iyolee/Front-End/blob/master/tools/tools.md)
 
 ## 学习总结
-- [正则表达式（基础篇）](https://github.com/iyolee/Front-End/blob/master/tools/RegExBasic.md)
-- [理解闭包](https://github.com/iyolee/Front-End/blob/master/JS/closure.md)
-- [this全面解析](https://github.com/iyolee/Front-End/blob/master/JS/this.md)
-- [深入浅出理解Redux](https://github.com/iyolee/Front-End/blob/master/React/redux.md)
-- [漫谈MongoDB](https://github.com/iyolee/Front-End/blob/master/DB/mongo.md)
+### JavaScript
+- [this](https://github.com/iyolee/Front-End/blob/master/JS/this.md)
+- [闭包](https://github.com/iyolee/Front-End/blob/master/JS/closure.md)
+- [ES6速览](https://github.com/iyolee/Front-End/blob/master/JS/es6.md)
+
+### React
+- [理解Redux](https://github.com/iyolee/Front-End/blob/master/React/redux.md)
+- [React Native 是什么](https://github.com/iyolee/Front-End/blob/master/React/RN.md)
+
+### Node.js
 - [理解Node.js的异步](https://github.com/iyolee/Front-End/blob/master/Node/nodeAsync.md)
+
+### 泛前端
+- [函数式编程](https://github.com/iyolee/Front-End/blob/master/JS/FP.md)
+- [正则表达式（基础篇）](https://github.com/iyolee/Front-End/blob/master/FE/RegExBasic.md)
+- [漫谈MongoDB](https://github.com/iyolee/Front-End/blob/master/FE/mongo.md)
+
+## 资源收集
+- [提升效率的前端工具、库和资源](https://github.com/iyolee/Front-End/blob/master/Resource/tools.md)

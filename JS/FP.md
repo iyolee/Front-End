@@ -17,6 +17,7 @@
 - 相同输入总是会返回相同的输出
 - 不产生副作用
 - 不依赖于外部状态  
+
 JS中纯函数的例子：
 ``` javascript
 String.prototype.toUpperCase  

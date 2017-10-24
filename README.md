@@ -18,5 +18,9 @@
 - [正则表达式（基础篇）](https://github.com/iyolee/Front-End/blob/master/FE/RegExBasic.md)
 - [漫谈MongoDB](https://github.com/iyolee/Front-End/blob/master/FE/mongo.md)
 
+### 图解
+- [Node.js模块加载](https://github.com/iyolee/Front-End/blob/master/Images/module.png)
+- [JavaScript内置对象导览图](https://github.com/iyolee/Front-End/blob/master/Images/standard-built-in-objects.png)（by [justjavac](https://github.com/justjavac/programming-mindmap)）
+
 ## 资源收集
 - [提升效率的前端工具、库和资源](https://github.com/iyolee/Front-End/blob/master/Resource/tools.md)

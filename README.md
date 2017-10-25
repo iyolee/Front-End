@@ -12,6 +12,7 @@
 
 ### Node.js
 - [理解Node.js的异步](https://github.com/iyolee/Front-End/blob/master/Node/nodeAsync.md)
+- [module.exports与exports](https://github.com/iyolee/Front-End/blob/master/Node/exports.md)
 
 ### 泛前端
 - [函数式编程](https://github.com/iyolee/Front-End/blob/master/JS/FP.md)

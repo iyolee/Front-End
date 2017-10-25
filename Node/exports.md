@@ -1,10 +1,5 @@
----
-title: module.exports与exports
-date: 2017-10-24 11:03:24
-tags: [Node.js]
----
+# module.exports与exports
 刚接触Node的时候有个疑惑，为什么有exports存在的情况下还会有module.exports的存在呢？
-<!--more--> 
 
 ### 具体区别
 module.exports对象是由模块系统创建的：  

@@ -19,13 +19,11 @@ identifyUser.call(obj2) // -> SANDMAN
 如果不使用this，就需要给identifyUser()显示传入一个上下文对象，但随着使用模式的增加，显示传递上下文对象成了”噩梦“，让代码也变得越来越混乱。为了将API设计得更加简洁并易于复用，就必须正视this。
 
 ### 什么是this
-  如果在任何函数体外部，无论是否在严格模式，this都指代全局对象。这里着重讨论的是函数体内部的this:
-  **this是指向包含它的函数被调用时所属的执行上下文。**
-  当一个函数被调用时，会创建一个执行上下文，它包含函数调用栈，函数的调用方式，传入的参数等信息。所以this是在运行时确定的，并不是在编写时确定的。
+  如果在任何函数体外部，无论是否在严格模式，this都指代全局对象。这里着重讨论的是函数体内部的this。JavaScript的this总是指向一个对象，具体指向哪个对象是在运行时基于函数的执行环境动态绑定的，而非函数被声明时的环境。
 
 ### 调用方式
   在函数内部，this的绑定和函数声明的位置没有任何关系，只取决于函数的调用方式：
-  - 直接调用  
+  - 作为普通函数调用  
   this的值默认指向全局对象：
   ``` JavaScript
   let a = 233;
@@ -77,7 +75,7 @@ identifyUser.call(obj2) // -> SANDMAN
   var a = 'global a';
   bar(); // -> 'global a'
   ```
-    虽然bar是obj.foo的一个引用，但实际上，它引用的foo函数本身，foo函数在全局直接调用，非严格模式下，this指向全局对象。
+    虽然bar是obj.foo的一个引用，但实际上，它引用的foo函数本身，作为普通函数直接调用，非严格模式下，this指向全局对象。
     第二种  
   ``` JavaScript
   function foo () {
@@ -104,7 +102,7 @@ identifyUser.call(obj2) // -> SANDMAN
   var a = "global a";
   setTimeout(obj.foo, 0) // -> 'global a'
   ```
-    参数传入的是函数会导致被传入的这个函数this绑定丢失，this会指向默认的全局对象。
+    参数传入的是函数，作为普通函数调用，会导致被传入的这个函数this绑定丢失，this会指向默认的全局对象。
     bind方法可以解决上this绑定丢失的情况：
   ``` JavaScript
   function foo () {

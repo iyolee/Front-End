@@ -2,8 +2,8 @@
 
 ## 学习总结
 ### JavaScript
-- [this](https://github.com/iyolee/Front-End/blob/master/JS/this.md)
-- [闭包](https://github.com/iyolee/Front-End/blob/master/JS/closure.md)
+- [JavaScript学习【理解this】](https://github.com/iyolee/Front-End/blob/master/JS/this.md)
+- [JavaScript学习【理解闭包】](https://github.com/iyolee/Front-End/blob/master/JS/closure.md)
 - [ES6速览](https://github.com/iyolee/Front-End/blob/master/JS/es6.md)
 
 ### React

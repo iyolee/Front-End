@@ -4,7 +4,8 @@
 ### JavaScript
 - [JavaScript学习【理解this】](https://github.com/iyolee/Front-End/blob/master/JS/this.md)
 - [JavaScript学习【理解闭包】](https://github.com/iyolee/Front-End/blob/master/JS/closure.md)
-- [ES6速览](https://github.com/iyolee/Front-End/blob/master/JS/es6.md)
+- [JavaScript学习【理解面向对象】](https://github.com/iyolee/Front-End/blob/master/JS/OOP.md)
+- [JavaScript学习【ES6速览】](https://github.com/iyolee/Front-End/blob/master/JS/es6.md)
 
 ### React
 - [理解Redux](https://github.com/iyolee/Front-End/blob/master/React/redux.md)

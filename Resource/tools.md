@@ -65,3 +65,6 @@
 - UI Kit — 框架
 - Bootstrap — 框架
 - Foundation — 框架
+
+### 开源前端库、框架和插件集合
+- [Awesomes.cn](https://www.awesomes.cn/)

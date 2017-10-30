@@ -21,10 +21,16 @@ exports只是对module.exports的一个全
 - 如果希望模块成为某个类的实例，需要将期望导出的对象赋值给module.exports
 
 ### 注意点
-- 如果创建了一个既有exports又有 module.exports的模块,那它会返回module.exports，而exports会被忽略
-- 如果一个新的值被赋值给 exports，它就不再绑定到 module.exports，就打破了module.exports和exports之间的引用关系  
+- 如果创建了一个既有exports又有 module.exports的模块,那它会返回module.exports，而exports会被忽略。但可以通过重新指定引用，使用exports：  
 
-真正导出的是module.exports，那样exports就不能用了,因为它不再指向 module.exports了。如果想维持那个链 接，可以让module.exports再次引用exports：
 ``` javascript
-module.exports = exports = currentReference;
+exports = module.exports = function (name, age){
+  this.name = name;
+  this.age = age;
+}
+exports.sex = "male";
+```
+- 如果一个新的值被赋值给 exports，它就不再绑定到 module.exports，就打破了module.exports和exports之间的引用关系。如果想维持那个链接，可以让exports再次引用module.exports：
+``` javascript
+exports = module.exports = currentReference;
 ```

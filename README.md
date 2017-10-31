@@ -1,9 +1,12 @@
 # 前端资源收集及学习总结
 
+（持续更新中...）
+
 ## 学习总结
 ### JavaScript
 - [JavaScript学习【理解this】](https://github.com/iyolee/Front-End/blob/master/JS/this.md)
 - [JavaScript学习【理解闭包】](https://github.com/iyolee/Front-End/blob/master/JS/closure.md)
+- [JavaScript学习【理解提升】](https://github.com/iyolee/Front-End/blob/master/JS/hoist.md)
 - [JavaScript学习【理解面向对象】](https://github.com/iyolee/Front-End/blob/master/JS/OOP.md)
 - [JavaScript学习【ES6速览】](https://github.com/iyolee/Front-End/blob/master/JS/es6.md)
 

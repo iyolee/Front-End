@@ -50,14 +50,33 @@ function Person(name, age) {
 Person.prototype.sayHello = function () {
     console.log('My name is ' + this.name);
 }
-const person = new Person('leeper' 20);
+const person = new Person('leeper', 20);
+
+console.log(person instanceof Object); // true
+console.log(person instanceof Person); // true
+console.log(person.constructor == Person); // true
+console.log(person.constructor == Object); // false
+```
+调用构造函数时会为实例添加一个指向最初原型的[[Prototype]]指针，而把原型修改为另外一个对象就等于切断了构造函数与最初原型之间的联系（指向Object）:  
+``` JavaScript
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+Person.prototype = {
+  sayHello: function () {
+    console.log('My name is ' + this.name);
+  }
+}
+const person = new Person('leeper', 20);
 
 console.log(person instanceof Object); // true
 console.log(person instanceof Person); // true
 console.log(person.constructor == Person); // false
 console.log(person.constructor == Object); // true
 ```
-调用构造函数时会为实例添加一个指向最初原型的[[Prototype]]指针，而把原型修改为另外一个对象就等于切断了构造函数与最初原型之间的联系（指向Object），但可以手动修复。
+
+对于上面的问题，可以手动修复：
 ``` JavaScript
 function Person(name, age) {
   this.name = name;
@@ -74,7 +93,7 @@ const person = new Person('leeper', 20);
 console.log(person instanceof Object); // true
 console.log(person instanceof Person); // true
 console.log(person.constructor == Person); // true
-console.log(person.constructor == Object); // true
+console.log(person.constructor == Object); // false
 ```
 总结一下构造函数、原型和实例的关系：每个构造函数都有一个原型对象，原型对象都包含一个指向构造函数的指针，而实例都包含一个指向原型对象内部指针。
 

@@ -34,7 +34,10 @@
 ### 图解
 - [Flux](https://github.com/iyolee/Front-End/blob/master/Images/flux.png)与[Redux](https://github.com/iyolee/Front-End/blob/master/Images/redux.png)
 - [Node.js模块加载](https://github.com/iyolee/Front-End/blob/master/Images/module.png)
+- [现在前端技术解析](https://github.com/iyolee/Front-End/blob/master/Images/FE.jpg)
+- [HTTP1.1的优化建议](https://github.com/iyolee/Front-End/blob/master/Images/http1.1.jpg)与[HTTP2.0的优化建议](https://github.com/iyolee/Front-End/blob/master/Images/http2.jpg)
 - [JavaScript内置对象导览图](https://github.com/iyolee/Front-End/blob/master/Images/standard-built-in-objects.png)（by [justjavac](https://github.com/justjavac/programming-mindmap))
 
 ### 工具
+- [Vim编辑器使用](https://github.com/iyolee/Front-End/blob/master/Resource/vim.md)
 - [提升效率的前端工具、库和资源](https://github.com/iyolee/Front-End/blob/master/Resource/tools.md)

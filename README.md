@@ -24,6 +24,7 @@
 - [函数式编程](https://github.com/iyolee/Front-End/blob/master/JS/FP.md)
 - [正则表达式（基础篇）](https://github.com/iyolee/Front-End/blob/master/FE/RegExBasic.md)
 - [漫谈MongoDB](https://github.com/iyolee/Front-End/blob/master/FE/mongo.md)
+- [Git学习笔记](https://github.com/iyolee/Front-End/blob/master/FE/git.md)
 
 ## 资源收集
 ### 扩展阅读

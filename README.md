@@ -2,7 +2,7 @@
 
 （持续更新中...）
 
-## 学习总结（原创文章）
+## 学习总结
 ### JavaScript
 - [JavaScript学习【ES6速览】](https://github.com/iyolee/Front-End/blob/master/JS/es6.md)
 - [JavaScript学习【理解this】](https://github.com/iyolee/Front-End/blob/master/JS/this.md)
@@ -22,9 +22,13 @@
 
 ### 泛前端
 - [函数式编程](https://github.com/iyolee/Front-End/blob/master/JS/FP.md)
-- [正则表达式（基础篇）](https://github.com/iyolee/Front-End/blob/master/FE/RegExBasic.md)
-- [漫谈MongoDB](https://github.com/iyolee/Front-End/blob/master/FE/mongo.md)
+
+## 学习笔记
+- [正则表达式（一）](https://github.com/iyolee/Front-End/blob/master/FE/RegExBasic.md)
+- [正则表达式（二）](https://github.com/iyolee/Front-End/blob/master/FE/RegExTwo.md)
 - [Git学习笔记](https://github.com/iyolee/Front-End/blob/master/FE/git.md)
+- [MongoDB学习笔记](https://github.com/iyolee/Front-End/blob/master/FE/mongo.md)
+- [TypeScript学习笔记](https://github.com/iyolee/ts-learn)
 
 ## 资源收集
 ### 扩展阅读
@@ -40,5 +44,5 @@
 - [JavaScript内置对象导览图](https://github.com/iyolee/Front-End/blob/master/Images/standard-built-in-objects.png)（by [justjavac](https://github.com/justjavac/programming-mindmap))
 
 ### 工具
-- [Vim编辑器使用](https://github.com/iyolee/Front-End/blob/master/Resource/vim.md)
+- [Vim编辑器常用命令](https://github.com/iyolee/Front-End/blob/master/Resource/vim.md)
 - [提升效率的前端工具、库和资源](https://github.com/iyolee/Front-End/blob/master/Resource/tools.md)

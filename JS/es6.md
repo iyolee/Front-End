@@ -132,7 +132,7 @@ nums.copyWithin(0, 2);  // ['three', 'two', 'three']
 // fill会改变数组的值
 nums.fill('five');  // ['five', 'five', 'five']
 ```
-ES6还添加了数组迭代的方法：entries(), keys(), values()，entries()是对数组中键值进行遍历, keys()是对数组键名进行遍历, values()是对数组键值进行遍历，都是返回一个迭代器对象。
+ES6还添加了数组迭代的方法：entries(), keys(), values()，entries()是对数组中键值进行遍历, keys()是对数组键名进行遍历, values()是对数组键值进行遍历(注意： Chrome 未实现，Firefox未实现，Edge已实现。)，都是返回一个迭代器对象。
 ``` JavaScript
 for (let index of ['a', 'b'].keys()) {
   console.log(index);  // -> 0 1

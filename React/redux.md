@@ -28,6 +28,7 @@
   用户通过View（或服务器响应）触发Action，Dispatch方法将Action Creator函数生成的Action派发到Store，Store自动调用Reducer，并向它传入当前State和Action，Reducer返回新的State，State一旦有变化，Store就会通过监听函数来更新View。
   借用一张图来描述这一过程：
   ![image](http://i.niupic.com/images/2017/09/29/YSaDHU.png)
+  
   **严格的单向数据流是 Redux 架构的设计核心。**
 
 ### 几个Redux核心概念实例

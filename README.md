@@ -10,6 +10,7 @@
 - [JavaScript学习【理解提升】](https://github.com/iyolee/Front-End/blob/master/JS/hoist.md)
 - [JavaScript学习【理解面向对象】](https://github.com/iyolee/Front-End/blob/master/JS/OOP.md)
 - [JavaScript学习【假值的相等比较】](https://github.com/iyolee/Front-End/blob/master/JS/isEquality.md)
+- [JavaScript学习【重新理解for循环语句】](https://github.com/iyolee/Front-End/blob/master/JS/for.md)
 - [JavaScript学习【JS相等性引发的思考】](https://github.com/iyolee/Front-End/blob/master/JS/readMore.md)
 
 ### React

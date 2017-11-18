@@ -38,7 +38,8 @@ console.log(foo >= bar);  // -> true
 ```
 有图有真相：（注：使用Node的REPL进行演示）
 ![image](http://i.niupic.com/images/2017/09/29/CuBfD1.png
-)
+)  
+
 为什么会这样？开始了查阅文档之路，先看平时习惯查阅的[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)关于[JavaScript 中的相等性判断](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Equality_comparisons_and_sameness)似乎找不到解释，再查看[W3school](http://www.w3school.com.cn/js/pro_js_operators_relational.asp)和[菜鸟教程](http://www.runoob.com/js/js-comparisons.html)相关的都只是陈列一些，都没有找到解释……最后去翻阅[官方文档](http://www.ecma-international.org/ecma-262/5.1/index.html#sec-11.8.3)才找到了解释：
 ![image](http://i.niupic.com/images/2017/09/29/JhWnEP.png
 )

@@ -83,7 +83,7 @@ console.log(a); // -> [[0, 2], 3, 4]
 console.log(b); // -> [[0, 2], 3, 4]
 ```
 
-![slice()](https://i.niupic.com/images/2017/11/26/iUH0v6.png
+![slice()](http://i.niupic.com/images/2017/11/26/Oeguvl.png
 )
 
 同样，对于concat()也进行验证:
@@ -124,7 +124,7 @@ console.log(copyObj);
 // -> {name: "leeper", age: 20, friend: {age: 19,name: 'lee'}}
 ```
 
-![deep copy](https://i.niupic.com/images/2017/11/26/bteOkq.png
+![deep copy](http://i.niupic.com/images/2017/11/26/bteOkq.png
 )
 
 综上，**JSON.parse()和JSON.stringify()是完全的深拷贝**。

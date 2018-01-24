@@ -17,6 +17,7 @@
 
 ### React
 - [理解Redux](https://github.com/iyolee/Front-End/blob/master/React/redux.md)
+- [React v16.x](https://github.com/iyolee/Front-End/blob/master/React/react16.md)
 - [React Native 是什么](https://github.com/iyolee/Front-End/blob/master/React/RN.md)
 
 ### Node.js
@@ -25,6 +26,7 @@
 
 ### 泛前端
 - [函数式编程](https://github.com/iyolee/Front-End/blob/master/JS/FP.md)
+- [重排与重绘](https://github.com/iyolee/Front-End/blob/master/JS/repaint.md)
 
 ## 学习笔记
 - [正则表达式（一）](https://github.com/iyolee/Front-End/blob/master/FE/RegExBasic.md)

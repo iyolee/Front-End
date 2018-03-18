@@ -31,7 +31,7 @@
 ### 泛前端
 - [函数式编程](https://github.com/iyolee/Front-End/blob/master/JS/FP.md)
 - [重排与重绘](https://github.com/iyolee/Front-End/blob/master/JS/repaint.md)
-- [认识RESTful](https://github.com/iyolee/Front-End/blob/master/Extension/httpcache.md)
+- [认识RESTful](https://github.com/iyolee/Front-End/blob/master/Node/restful.md)
 
 ## 学习笔记
 - [正则表达式（一）](https://github.com/iyolee/Front-End/blob/master/FE/RegExBasic.md)

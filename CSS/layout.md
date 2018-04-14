@@ -159,7 +159,7 @@
 }
 ```
 
-### flex + justify-content +Calign-items
+### flex + justify-content + align-items
 ``` html
 <div class="parent">
   <div class="child>水平垂直居中</div>
@@ -329,5 +329,101 @@
 }
 .left p,.center p{
   width: 100px;
+}
+```
+
+### 宽度自适应布局
+#### 绝对定位法
+``` html
+<body>
+  <div id="left"></div>
+  <div id="center"></div>
+  <div id="right"></div>
+</body>
+```
+``` css
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#left, #right {
+  position: absolute;
+  top: 0;
+  width: 200px; 
+  height: 100%;
+}
+#left {
+  left: 0;
+}
+#right {
+  right: 0;
+}
+#center {
+  margin: 0 210px;
+  height: 100%;
+}
+```
+#### margin 负值法
+``` html
+<body>
+  <div id="center">
+    <div id="body"></div>
+  </div>
+  <div id="left"></div>
+  <div id="right"></div>
+</body>
+```
+``` css
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#center {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+#center #body{
+  margin: 0 210px;
+  height: 100%;
+}
+#left, #right {
+  width: 200px;
+  height: 100%;
+  float: left;
+}
+#left {
+  margin-left: -100%;
+}
+#right {
+  margin-left: -200px;
+}
+```
+#### 自身浮动法
+``` html
+<body>
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="center"></div>
+</body>
+```
+``` css
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#center {
+  height: 100%;
+  margin: 0 210px;
+}
+#left, #right {
+  width: 200px;
+  height: 100%;
+}
+#left {
+  float: left;
+}
+#right {
+  float: right;
 }
 ```

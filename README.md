@@ -1,4 +1,4 @@
-# 前端学习总结&&资源收集
+# 前端学习总结
 
 （持续更新中...）
 
@@ -23,6 +23,8 @@
 
 ### HTML & CSS
 - [HTML杂谈](https://github.com/iyolee/Front-End/blob/master/HTML/htmlBasic.md)
+- [CSS3选择器](https://github.com/iyolee/Front-End/blob/master/CSS/selector.md)
+- [CSS布局](https://github.com/iyolee/Front-End/blob/master/CSS/layout.md)
 
 ### Node.js
 - [理解Node.js的异步](https://github.com/iyolee/Front-End/blob/master/Node/nodeAsync.md)
@@ -40,6 +42,7 @@
 - [MongoDB学习笔记](https://github.com/iyolee/Front-End/blob/master/FE/mongo.md)
 - [TypeScript学习笔记](https://github.com/iyolee/ts-learn)
 - [HTTP 缓存学习笔记](https://github.com/iyolee/Front-End/blob/master/Extension/httpcache.md)
+- [排序算法](https://github.com/iyolee/Front-End/blob/master/algorithm/sort.md)
 
 ## 资源收集
 ### 扩展阅读

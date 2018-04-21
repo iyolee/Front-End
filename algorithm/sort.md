@@ -176,6 +176,47 @@ Array.prototype.heapSort = function () {
   return arr;
 };
 ```
+``` js
+function buildHeap(array) {
+  const heapSize = array.length;
+  for (let i = Math.floor(array.length / 2); i >= 0; i--) {
+    heapify(array, heapSize, i);
+  }
+}
+
+function heapify(array, heapSize, i) {
+  const left = i * 2 + 1;
+  const right = i * 2 + 2;
+  let largest = i;
+  
+  if (left < heapSize && array[left] > array[largest]) {
+    largest = left;
+  }
+  
+  if (right < heapSize && array[right] > array[largest]) {
+    largest = right;
+  }
+  
+  if (largest !== i) {
+    [array[i], array[largest]] = [array[largest], array[i]];
+    heapify(array, heapSize, largest);
+  }
+}
+
+function heapSort(array) {
+  let heapSize = array.length;
+  buildHeap(array);
+
+  while (heapSize > 1) {
+    heapSize--;
+    [array[0], array[heapSize]] = [array[heapSize], array[0]];
+    heapify(array, heapSize, 0);
+  }
+  return array;
+}
+
+console.log(heapSort([5, 3, 2, 4, 1, 8, 6, 5, 4]))
+```
 
 ### 希尔排序
 希尔排序的名称来源于它的发明者Donald Shell，原理：  

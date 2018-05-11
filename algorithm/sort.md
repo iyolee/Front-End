@@ -43,33 +43,64 @@ function merge(left, right) {
 ```
 
 ### 快速排序
-1. 首先，从数组中选择中间一项作为主元。
-2. 其他数字跟主元比较，比主元小的放在其左边，大的放到其右边
-3. 经过一次循环之后，主元左边为小于主元的，右边为大于主元的
-4. 将左边和右边的数再递归上面的过程
+1. 首先，从数组中选择中间一项作为主元
+2. 创建两个指针，左边一个指向数组第一个项，右边一个指向数组最后一个项。移动左指针直到我们找到一个比主元大的元素，接着，移动右指针直到找到一个比主元小的元素，然后交换它们
+3. 重复上述第二步过程，直到左指针超过了右指针。这个过程将使得比主元小的值都排在主元之前，而比主元大的值都排在主元之后，这个过程称为划分操作
+4. 对划分后的小数组重复之前两个步骤，直至数组已完全排序
 
 ``` js
-function quickSort(arr) {
-  if (arr.length <= 1) {
-    return arr;
-  }
+function quickSort(array) {
+  return quick(array, 0, array.length - 1)
+}
 
-  const pivotIndex = Math.floor(arr.length / 2);
-  const pivot = arr.splice(pivotIndex, 1)[0];
+function quick(array, left, right) {
+  let index;
+  if (array.length > 1) {
+    index = partition(array, left, right);
 
-  const left = [];
-  const right = [];
+    if (left < index - 1) {
+      quick(array, left, index - 1);
+    }
 
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < pivot) {
-      left.push(arr[i]);
-    } else {
-      right.push(arr[i]);
+    if (index < right) {
+      quick(array, index, right);
     }
   }
-
-  return quickSort(left).concat([pivot], quickSort(right));
+  return array;
 }
+
+function partition(array, left, right) {
+  const pivot = array[Math.floor((right + left) / 2)];
+  let i = left;
+  let j = right;
+
+  while (i <= j) {
+    while (compare(array[i], pivot) === -1) {
+      i++;
+    }
+    while (compare(array[j], pivot) === 1) {
+      j--;
+    }
+    if (i <= j) {
+      swap(array, i, j);
+      i++;
+      j--;
+    }
+  }
+  return i;
+}
+
+function compare(a, b) {
+  if (a === b) {
+    return 0;
+  }
+  return a < b ? -1 : 1;
+}
+
+function swap(array, a, b) {
+  [array[a], array[b]] = [array[b], array[a]];
+}
+
 ```
 
 ### 冒泡排序

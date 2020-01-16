@@ -35,6 +35,9 @@
 - [重排与重绘](https://github.com/iyolee/Front-End/blob/master/JS/repaint.md)
 - [认识RESTful](https://github.com/iyolee/Front-End/blob/master/Node/restful.md)
 
+## 技术分享
+- [你所需要知道的代码整洁之道](./TechTalk.cleancode.md)
+
 ## 学习笔记
 - [正则表达式（一）](https://github.com/iyolee/Front-End/blob/master/FE/RegExBasic.md)
 - [正则表达式（二）](https://github.com/iyolee/Front-End/blob/master/FE/RegExTwo.md)

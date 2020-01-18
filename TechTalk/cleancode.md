@@ -525,7 +525,7 @@ if (a && d || c) {
 - S(Single Responsibility Principle)：单一职责原则，简称SRP
 - O(Open Close Principle)：开放封闭原则，简称OCP
 - L(Liskov Substitution Principle)：里氏替换原则，简称LSP
-- I(Interface Segregation Principle)：，简称ISP
+- I(Interface SegregationPrinciple)：接口隔离原则，简称ISP
 - D(Dependence Inversion Principle)：依赖倒置原则，简称DIP
 
 #### 单一职责原则
@@ -724,11 +724,6 @@ if (errorMsg) {
 既可以用在异步编程中，也可以帮助我们完成更松耦合的代码编写。
 
 如果大家需要了解设计模式更多知识，建议另外找资料学习。
-
-三重境界：
-1. 一重境界：依葫芦画瓢。
-2. 二重境界：灵活运用。
-3. 三重境界：心中无模式。
 
 ### 总结
 宋代禅宗大师青原行思提出参禅的三重境界：
